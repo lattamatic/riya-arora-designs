@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Riya Arora Designs</title>
+  <meta name="description" content="Get in touch with Riya Arora Designs to start your custom saree or lehenga journey." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">Riya Arora <span>Designs</span></a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="designs.html">Designs</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="btn btn-primary">Contact Us</a></li>
+      </ul>
+      <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="contact-hero">
+    <div class="container">
+      <h1>Get in Touch</h1>
+      <p>Ready to begin your custom design journey? We'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="contact-split">
+
+        <!-- INFO SIDE -->
+        <div>
+          <h3 style="color:var(--maroon);font-family:var(--font-display);font-size:1.6rem;margin-bottom:2rem;">Let's Start a Conversation</h3>
+
+          <div class="contact-detail">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Visit the Studio</strong>
+              <span>12, Silk Lane, Bandra West<br>Mumbai — 400050</span>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon">📞</div>
+            <div>
+              <strong>Call or WhatsApp</strong>
+              <span>+91 98765 43210<br>Mon–Sat, 10am – 7pm IST</span>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <strong>Email Us</strong>
+              <span>hello@riyaaroradesigns.com<br>We reply within 24 hours</span>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <strong>Studio Hours</strong>
+              <span>Mon – Sat: 10:00am – 7:00pm<br>Sunday: By appointment only</span>
+            </div>
+          </div>
+
+          <div style="margin-top:2rem;">
+            <h4 style="color:var(--maroon);font-family:var(--font-display);margin-bottom:1rem;">Follow Our Work</h4>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Instagram">📷</a>
+              <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+              <a href="#" class="social-link" aria-label="WhatsApp">💬</a>
+              <a href="#" class="social-link" aria-label="YouTube">▶️</a>
+            </div>
+          </div>
+
+          <!-- Map placeholder -->
+          <div class="map-placeholder">
+            <span>🗺️</span>
+            <p>12, Silk Lane, Bandra West, Mumbai</p>
+          </div>
+        </div>
+
+        <!-- FORM SIDE -->
+        <div class="contact-form-card">
+          <h3>Send Us a Message</h3>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Preethi" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Nair" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="preethi@example.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" />
+            </div>
+
+            <div class="form-group">
+              <label for="occasion">Occasion</label>
+              <select id="occasion" name="occasion">
+                <option value="">Select an occasion...</option>
+                <option value="wedding">Wedding / Bridal</option>
+                <option value="reception">Reception</option>
+                <option value="sangeet">Sangeet / Mehendi</option>
+                <option value="festive">Festive / Puja</option>
+                <option value="party">Party Wear</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="garment">Type of Garment</label>
+              <select id="garment" name="garment">
+                <option value="">Select garment type...</option>
+                <option value="saree">Saree</option>
+                <option value="lehenga">Lehenga</option>
+                <option value="both">Both (Saree + Lehenga)</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="budget">Approximate Budget</label>
+              <select id="budget" name="budget">
+                <option value="">Select a range...</option>
+                <option value="25-50k">₹25,000 – ₹50,000</option>
+                <option value="50-1L">₹50,000 – ₹1,00,000</option>
+                <option value="1-2L">₹1,00,000 – ₹2,00,000</option>
+                <option value="2L+">₹2,00,000+</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tell Us Your Vision *</label>
+              <textarea id="message" name="message" placeholder="Share your ideas — colors, fabric preferences, occasion details, any inspirations you have in mind..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+            <div id="successMsg" class="success-msg">
+              ✓ Thank you! Riya will get back to you within 24 hours.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ STRIP -->
+  <section class="section-pad-sm bg-cream">
+    <div class="container text-center">
+      <h2 class="section-title">Common Questions</h2>
+      <div class="divider"></div>
+      <div style="max-width:700px;margin:2.5rem auto 0;text-align:left;display:grid;gap:1.5rem;">
+        <div style="background:white;padding:1.5rem;border-radius:8px;box-shadow:var(--shadow-sm);">
+          <strong style="color:var(--maroon);">How long does a custom order take?</strong>
+          <p style="margin-top:0.5rem;">Typically 6–10 weeks depending on the complexity. Bridal sets may take up to 12 weeks. We recommend reaching out 3–4 months before your event.</p>
+        </div>
+        <div style="background:white;padding:1.5rem;border-radius:8px;box-shadow:var(--shadow-sm);">
+          <strong style="color:var(--maroon);">Do you ship outside Mumbai?</strong>
+          <p style="margin-top:0.5rem;">Yes — we ship pan-India and internationally. Consultations can be done via video call for outstation clients.</p>
+        </div>
+        <div style="background:white;padding:1.5rem;border-radius:8px;box-shadow:var(--shadow-sm);">
+          <strong style="color:var(--maroon);">What is the minimum budget for a custom piece?</strong>
+          <p style="margin-top:0.5rem;">Our custom designs start at ₹25,000 for sarees and ₹40,000 for lehengas, depending on fabric and embroidery choices.</p>
+        </div>
+        <div style="background:white;padding:1.5rem;border-radius:8px;box-shadow:var(--shadow-sm);">
+          <strong style="color:var(--maroon);">Can I bring my own fabric?</strong>
+          <p style="margin-top:0.5rem;">Absolutely. Many clients bring heirloom fabric — a grandmother's saree, for instance — and we incorporate it into a new design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">Riya Arora <span>Designs</span></a>
+          <p>Bespoke sarees and lehengas crafted with passion, heritage, and your story at heart.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="designs.html">Designs</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Collections</h4>
+          <ul class="footer-links">
+            <li><a href="designs.html">Sarees</a></li>
+            <li><a href="designs.html">Lehengas</a></li>
+            <li><a href="designs.html">Bridal</a></li>
+            <li><a href="designs.html">Festive</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer-contact-item"><span>📍</span><span>12, Silk Lane, Bandra West, Mumbai 400050</span></div>
+          <div class="footer-contact-item"><span>📞</span><span>+91 98765 43210</span></div>
+          <div class="footer-contact-item"><span>✉️</span><span>hello@riyaaroradesigns.com</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 Riya Arora Designs. All rights reserved.</span>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Pinterest">📌</a>
+          <a href="#" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
