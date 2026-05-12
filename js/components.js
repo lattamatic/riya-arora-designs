@@ -1,7 +1,7 @@
 const NAVBAR_HTML = `
 <nav class="navbar" role="navigation" aria-label="Main navigation">
   <div class="container nav-inner">
-    <a href="index.html" class="nav-logo">Riya Arora <span>Designs</span></a>
+    <a href="index.html" class="nav-logo">Shruti<span>Designs</span></a>
     <ul class="nav-links" role="list">
       <li><a href="index.html">Home</a></li>
       <li><a href="designs.html">Designs</a></li>
